@@ -3,8 +3,11 @@
 // When a smaller number is found, it is going to be the new smallest value til the end of the array.
 // If the index of smallest value is not the one you set in the beginning, swap two values.
 
-// BIG O - worst case => O(n^2)
-//       - best case => O(n^2)
+// BIG O
+// Time Complexity - worst case => O(n^2)
+//                 - average => O(n^2)
+//                 - best case => O(n^2)
+// Space complexity => O(1)
 
 function selectionSort(array) {
   for (let i = 0; i < array.length; i++) {

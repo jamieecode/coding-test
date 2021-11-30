@@ -13,8 +13,11 @@
 // BubbleSort
 // largest value goes up to the top
 
-// BIG O - worst case => O(n^2)
-//       - best case => O(n)
+// BIG O
+// Time Complexity - worst case => O(n^2)
+//                 - average => O(n^2)
+//                 - best case => O(n)
+// Space complexity => O(1)
 
 function bubbleSort(array) {
   let isSwapped;
